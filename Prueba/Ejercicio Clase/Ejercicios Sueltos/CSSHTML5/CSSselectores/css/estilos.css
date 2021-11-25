@@ -1,0 +1,93 @@
+a,p{
+    font-size: 18px;
+}
+
+div a{
+    color: brown;
+}
+
+div#capa1{
+    background-color: blue;
+}
+
+.letraGrande{
+    font-size: larger;
+}
+.nosubrayada{
+    text-decoration:none;
+}
+
+div#capa1 a.encima{
+    font-style: italic;
+}
+
+div#capa1 a.encima:hover{
+    font-size: xx-large;
+}
+
+p#miparrafo::first-line{
+    font-weight: bold;
+}
+
+p#miparrafo::first-letter{
+    font-size: 80px;
+    color: darkblue;
+    font-family: monospace;
+}
+
+div#capa1 * { 
+    background: darkgoldenrod;
+}
+
+div>a{
+    border: 3px solid red; 
+}
+
+a[href^="https"]{
+    padding: 20px;
+}
+
+a[href$="es"]{
+    text-transform: capitalize;
+}
+
+div + p {
+    font-size: 80px;
+}
+
+a[href*="google"]{
+    text-transform: capitalize;
+}
+
+ul#lista li:first-child{
+    background: red;
+}
+
+ul#lista li:last-child{
+    background: seagreen;
+}
+
+#ultimo.hover{
+    font-size: xx-large;
+}
+
+
+#ultimo.link{
+    font-size: medium;
+}
+
+#ultimo.visited{
+    font-size: 2px; 
+}
+
+input:focus{
+    border: 2px solid purple;
+} 
+
+input:enabled{
+
+}
+
+input:disabled
+
+input:checked

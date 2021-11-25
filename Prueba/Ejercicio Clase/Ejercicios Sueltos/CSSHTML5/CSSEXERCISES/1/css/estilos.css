@@ -1,0 +1,15 @@
+div#primero{
+    text-decoration-color: chocolate;
+}
+a{
+    font-size: 20px;
+    color: chocolate;
+}
+em.especial{
+    background-color: black;
+    color: yellow;
+}
+em{
+    background-color:khaki;
+    color: blue;
+}

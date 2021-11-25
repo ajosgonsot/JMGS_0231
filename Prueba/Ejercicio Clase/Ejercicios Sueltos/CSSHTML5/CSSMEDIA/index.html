@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Introduccion</title>
+    <style type="text/css"> 
+        @media only screen and (max-width:1500px) and (min-width:547px) 
+        {
+        body {
+            background-color: blue; 
+            }
+        p {
+            font-size: large;
+            color: white;
+        }
+        @media only screen and (max-width:900px) and (min-width:547px) 
+        {
+        body {
+            background-color: red;
+            }
+            p {
+            font-size: medium;
+            color: black;
+            }
+        }
+        @media only screen and (max-width:500px) 
+        {
+        body {
+            background-color: green;
+            }
+            p {
+            font-size: xx-small;
+            color: blue;
+            }
+        @media all and (orientation:landscape)
+        {
+            span{
+                font-size: 90px;
+            }
+        } 
+        @media all and (orientation: portrait) 
+        {
+            span{
+            font-size: 701px;
+            }
+        }
+        </style>
+
+            
+</head>
+<body>{ 
+}
+<p>Hola</p>
+<span>Holaa</span>
+</body>
+</html>
