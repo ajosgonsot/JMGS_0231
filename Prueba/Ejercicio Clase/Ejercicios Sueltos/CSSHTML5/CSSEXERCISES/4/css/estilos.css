@@ -1,0 +1,7 @@
+body{
+    border: 3px solid black;
+}
+p.FOX{
+    color: black;
+    font-style: oblique;
+}
