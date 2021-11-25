@@ -1,0 +1,36 @@
+h1{
+    color: green;
+}
+strong{
+    color: orange;
+}
+em{
+    color: orange;
+}
+h2{
+    color: green;
+}
+li{
+    color: red;
+}
+li.WORLD{
+    color: black;
+}
+li.USA{
+    color: black;
+}
+th{
+    color: black;
+}
+tr.NYJV{
+    color: purple
+}
+tr.SFHM{
+    color: purple
+}
+label{
+    color: red
+}
+a.Twitter{
+    color: cyan
+}
