@@ -1,0 +1,17 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+header{
+
+}
+#articulo1{
+    background-color: blue;
+}
+#articulo2{
+    background-color: chartreuse;
+}
+#articulo3{
+    background-color: red;
+}

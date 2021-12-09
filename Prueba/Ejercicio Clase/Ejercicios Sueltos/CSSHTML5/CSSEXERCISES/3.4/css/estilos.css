@@ -1,0 +1,22 @@
+h1{
+    color: green;
+}
+h2{
+    color: green;
+}
+b#tconf{
+    color: green;
+    background-color: yellow;
+}
+div{
+    border-color: blue;
+    border-width: 2px;
+    border-style: solid;
+}
+b.second:hover{
+    display: none;
+}
+b.second:first-letter{
+    font-size: 100px;
+
+}

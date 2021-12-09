@@ -80,7 +80,7 @@ ul#lista li:last-child{
     font-size: 2px; 
 }
 
-input:focus{
+input:focus section, section div{
     border: 2px solid purple;
 } 
 
