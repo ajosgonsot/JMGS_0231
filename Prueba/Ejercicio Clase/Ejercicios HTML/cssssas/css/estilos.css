@@ -1,0 +1,40 @@
+/* line 3, ../../../Repositorio/JMGS_0231/Prueba/Ejercicio Clase/Ejercicios HTML/cssssas/sas/estilos.scss */
+body {
+  font: Arial;
+  color: red;
+  background-color: grey;
+}
+
+/* line 8, ../../../Repositorio/JMGS_0231/Prueba/Ejercicio Clase/Ejercicios HTML/cssssas/sas/estilos.scss */
+h1 {
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 14, ../../../Repositorio/JMGS_0231/Prueba/Ejercicio Clase/Ejercicios HTML/cssssas/sas/estilos.scss */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  color: white;
+  display: flex;
+}
+
+/* line 23, ../../../Repositorio/JMGS_0231/Prueba/Ejercicio Clase/Ejercicios HTML/cssssas/sas/estilos.scss */
+a {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+/* line 29, ../../../Repositorio/JMGS_0231/Prueba/Ejercicio Clase/Ejercicios HTML/cssssas/sas/estilos.scss */
+li {
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 180px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=estilos.css.map */

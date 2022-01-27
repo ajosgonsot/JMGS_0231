@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "estilos.css",
+	"sources": [
+		"../sas/estilos.scss"
+	],
+	"sourcesContent": [
+		"\n$Letras: Arial;\nbody{\n  font: $Letras;\n  color: red;\n  background-color: grey;\n}\nh1{\n    font-size: 100px;\n    display: flex;\n    justify-content: center;\n}\n\nul{\n    margin: 0;\n    padding: 0;\n    list-style-type: none;\n    color: white;\n    display: flex;\n\n}\n\na{\n    display: block;\n    text-decoration: none;\n    color: black;\n}\n  \nli{\n    display: inline-block;\n    margin-top: 30px;\n    margin-left: 180px;\n    font-size: 30px;\n    font-weight: bold;\n\n}\n\n \n\n"
+	],
+	"names": [],
+	"mappings": ";AAEA,AAAA,IAAI,CAAA;EACF,IAAI,EAFG,KAAK;EAGZ,KAAK,EAAE,GAAG;EACV,gBAAgB,EAAE,IAAI;CACvB;;;AACD,AAAA,EAAE,CAAA;EACE,SAAS,EAAE,KAAK;EAChB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;CAC1B;;;AAED,AAAA,EAAE,CAAA;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,eAAe,EAAE,IAAI;EACrB,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,IAAI;CAEhB;;;AAED,AAAA,CAAC,CAAA;EACG,OAAO,EAAE,KAAK;EACd,eAAe,EAAE,IAAI;EACrB,KAAK,EAAE,KAAK;CACf;;;AAED,AAAA,EAAE,CAAA;EACE,OAAO,EAAE,YAAY;EACrB,UAAU,EAAE,IAAI;EAChB,WAAW,EAAE,KAAK;EAClB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;CAEpB"
+}
