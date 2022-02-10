@@ -6,7 +6,7 @@ echo "use $bd;">>aux.sql
 echo "create table $tabla (i int,n int);">>aux.sql
 for i in {1..10000}
 do
-let a=$random
-echo "Insert into $tabla values ($j,$a);">>aux.sql
+let a=$RANDOM
+echo "insert into $tabla values($i,$a);">>aux.sql
 done
-cat aux.sql | mysql
+cat aux.sql|mysql
