@@ -1,0 +1,43 @@
+h2{
+    font-style: italic;
+   }
+      
+   span{
+    font-style: italic;
+   }
+   
+   div.datos{
+       background-color: grey;
+       color: black;
+   }
+   span.segundo{
+       cursor: pointer;
+   
+   }
+   span.segundo:focus{ 
+       padding: 30px; 
+       background: light-gray; 
+       color: red; 
+     } 
+     span.segundo:hover { 
+       padding: 30px; 
+       background: blue; 
+       color: red; 
+     } 
+     span.segundo:active { 
+       padding: 30px; 
+       background: gray; 
+       color: red; 
+     } 
+     span.Segundo::first-letter{
+      font-size: 90px;
+      font-family: serif;
+     }
+   
+     ul.es{
+        color:red 
+     }
+   
+     ul.com{
+         color:blue
+     }

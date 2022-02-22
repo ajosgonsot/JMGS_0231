@@ -1,0 +1,78 @@
+div.Inicio{
+    background-color: grey;
+    color: white;
+    font-style: italic;
+    height: 300px;
+    width: 900px;
+}
+p.Dentro{
+    color: gainsboro;
+}
+p.Leyendo{
+    color: red;
+    font-family:cursive;
+    
+}
+div.Apple{
+    width: 300px;
+    height: 400x;
+    border: 1px solid black;
+
+}
+p.Mundo{
+    color: blue;
+}
+p.Mundial{
+    color: grey;
+}
+p.Fecha{
+    color: grey;
+}
+p.Leyendo{
+    color: white;
+}
+p.Continua{
+    color: blue;
+}
+div.Linux{
+    border: 1px solid black;
+    position: absolute;
+    top: 330px;
+    left: 430px;
+    width: 480px;
+    height: 240px;
+}
+p.Tecnologia{
+    color: green;
+}
+div.Apple2{
+    width: 140px; 
+    height: 240px ; 
+    position: absolute;
+    top: 330px;
+    left: 280px;
+    background-color: grey;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+}
+div.Linux2{
+    background-color: grey;
+    width: 180px; 
+    height: 240px ; 
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+    position: relative;
+    top: -249px;
+    left: 724px;
+}
+
+
+
+
+
+
+

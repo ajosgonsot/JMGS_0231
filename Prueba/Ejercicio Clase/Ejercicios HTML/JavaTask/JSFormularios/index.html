@@ -11,11 +11,30 @@
 </head>
 <body>
     <h1>Formulario</h1>
-    <form action="" method="get" name="form"></form>
+    <div style="width: 50%; float: left;">
+    <form action="funciones.php" method="get" name="form" onsubmit="return validarformulario()">
     <label for="nombre">nombre</label>
-    <input type="text" name="nombre" id="nombre" placeholder="nombre" autofocus onblur="validar">
+    <input type="text" name="nombre" id="nombre" placeholder="nombre" autofocus onblur="validar(this)">
     <br>
     <span id="spnombre" style="color: red;"></span>
     <br>
+<label for="postal">Cod.Postal</label>
+    <input type="number" name="postal" id="postal" size="5">
+<br>
+<label for="edad">Edad</label>
+    <input type="range" name="edad" id="edad" min="1" max="100" onchange="mostraredad">
+    <span id="spedad"></span>
+<br>
+<label for="telefono">telefono</label>
+    <input type="tel" name="telefono" id="telefono">
+<br>
+<input type="submit" value="Enviar">
+</form>
+</div>
+
+<div id="capaerrores" style="width: 50%; float: left; color: red;visibility: visible;">
+    <h3>Errores</h3>
+    <span id="errores"></span>
+</div>
 </body>
 </html>

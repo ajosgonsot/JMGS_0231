@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <script type="text/javascript" src="js/funciones.js">
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <p>Solicita nombre y edad(en años) y muestra el resultado de los dias que ha vivido</p>
+    <table>
+        <tr>
+            <td>
+                <label for="Nombre">Nombre</label>
+            </td>
+            <td>
+                <input type="text" name="nombre" id="nombre"></label>
+            </td>
+        </tr>
+        <tr>    
+            <td>
+                <label for="fecha">fecha</label>
+            </td>
+            <td>
+                <input type="date" name="fecha" id="fecha">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="button" value="calcular" onclick="calcularedad()">
+            </td>
+        </tr>
+    </table>
+    <div>
+        <span id="resultado"></span>
+    </div>
+</body>
+</html>
