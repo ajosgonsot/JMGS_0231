@@ -76,3 +76,58 @@ div.Linux2{
 
 
 
+div.img1{
+    border: 1px solid black;
+    height: 500px;
+    width: 300px;
+    background-color: white;
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+
+div.img2{
+    position: relative;
+    top: -490px;
+    left: 380px;
+    border: 1px solid black;
+    height: 310px;
+    width: 260px;
+    background-color: white;
+}
+div.img3{
+    position: relative;
+    top: -470px;
+    left: 380px;
+    border: 1px solid black;
+    height: 310px;
+    width: 260px;
+    background-color: white;
+}
+div.img4{
+    position: absolute;
+    top: -0113px;
+    left: 670px;
+    border: 1px solid black;
+    height: 400px;
+    width: 260px;
+    background-color: white;
+}
+div.img5{
+    position: basolute;
+    top: -1092px;
+    left: 670px;
+    border: 1px solid black;
+    height: 320px;
+    width: 260px;
+    background-color: white;
+}
+div.img6{
+    position: relative;
+    top: -1436px;
+    left: 950px;
+    border: 1px solid black;
+    height: 520px;
+    width: 260px;
+    background-color: white;
+}

@@ -1,0 +1,28 @@
+h1{
+    color: blue
+}
+h2{
+    color: blue
+}
+h3{
+    color: blue
+}
+#textocofondo{
+    color: yellow;
+    background-color: blue;
+}
+span{
+    border: 2px solid green;
+}
+.segundo:hover{
+display:none;
+}
+.segundo::first-line {
+    size: 10px;
+}
+a[href^="https"]{
+    text-decoration:none;
+}
+a{
+    color: green
+}
