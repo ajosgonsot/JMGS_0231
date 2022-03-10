@@ -7,7 +7,7 @@ function Resultado(){
     var Numero2 = document.getElementById("Numero2").value;
     var Resultado="";
     
-eval(suma) 
+let Resultado =eval(suma) 
 let Numero1 = Numero1;
 let Numero2 = Numero2;
 let Resultado = Numero1 + Numero2;

@@ -1,13 +1,27 @@
-function calcular() {
-    var base = document.getElementById("base").value ;
-    var Exponente = document.getElementById("Exponente").value ;
-    var resultado = ""
+function sumar(){
+var Numero1 = parseInt(document.getElementById("Numero1").value);
+var Numero2 = parseInt(document.getElementById("Numero2").value);
+var setinput = document.getElementById("Resultado");
+var ope = Numero1 + Numero2;   
+setinput.value = ope;}
+    
+function restar(){       
+var Numero1 = parseInt(document.getElementById("Numero1").value);
+var Numero2 = parseInt(document.getElementById("Numero2").value);
+var setinput = document.getElementById("Resultado");
+var ope = Numero1 - Numero2;
+setinput.value = ope;}
 
-    var resultado = Math.pow(base,Exponente)
+function multiplicacion(){
+var Numero1 = parseInt(document.getElementById("Numero1").value);
+var Numero2 = parseInt(document.getElementById("Numero2").value);
+var setinput = document.getElementById("Resultado");
+var ope = Numero1 * Numero2;           
+setinput.value = ope;}
 
-    document.getElementById("resul").innerHTML = resultado;
-
-}
-
-
-
+function division(){
+var Numero1 = parseInt(document.getElementById("Numero1").value);
+var Numero2 = parseInt(document.getElementById("Numero2").value);
+var setinput = document.getElementById("Resultado");
+var ope = Numero1 / Numero2;
+setinput.value = ope;}
