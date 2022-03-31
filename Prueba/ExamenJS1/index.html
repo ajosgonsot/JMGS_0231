@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1</title>
+    <script type="text/javascript" src="js/funciones.js"></script>
+</head>
+<body>
+    <div>
+        <form action="funciones.php" method="get" name="formu" 
+                onsubmit="return validarFormulario()">
+
+            <label for="Login">Login</label>
+            <input type="text" name="Login" id="Login" 
+                    placeholder="Login" autofocus onblur="validar(this)">
+            <br/>
+            <span id="spnombre" style="color: red;"></span>
+            <br/>
+          
+            <label for="telefono">Teléfono</label>
+            <input type="tel" name="telefono" id="telefono">
+            <br>
+
+            <label for="web">web</label>
+            <input type="text" name="web" id="web">
+            <br>
+            <label for="Deporte">Aficiones</label>
+            <input type="checkbox" name="Afi" id="Afi">
+            <br>
+            <label for="Cine">Cine</label>
+            <input type="checkbox" name="Afi" id="Afi">
+            <br>
+            <label for="Musica">Musica</label>
+            <input type="checkbox" name="Afi" id="Afi">
+            <br>
+
+            <br/>
+            <input type="submit" value="Enviar">
+
+        </form>
+    </div>
+    <div id="capaerrores" style="width: 50%; float: left;color: red;visibility: hidden;">
+        <h3>Errores</h3>
+        <span id="sperrores"></span>
+    </div>
+</body>
+</html>

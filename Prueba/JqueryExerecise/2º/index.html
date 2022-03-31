@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="js/jquery-3.6.0.js"></script>
+    <title>Document</title>
+    <script type="text/javascript"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("button.boton").click(function () {
+        $("#Lista1").addClass("Lista")
+        })
+    });
+</script>
+
+<style>
+li.Lista{
+    display: none;
+}
+
+</style>
+</head>
+<body>
+<ul id="Lista1">
+    <li>uno</li>
+    <li>Dos</li>
+    <li>tres</li>
+    <li>cuatro</li>
+</ul>
+<br/>
+<ul id="Lista2">
+    <li>cinco</li>
+    <li>Seis</li>
+    <li>siete</li>
+    <li>Ocho</li>
+</ul>
+<input type="button" id="Boton" value="Boton">
+</body>
+</html>
